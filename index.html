@@ -1,3 +1,25 @@
-Edit the code in "code-to-run.js" and look in the console!
-
-<script src="code-to-run.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/two.js/0.6.0/two.min.js"
+      integrity="sha256-0qJ0at+6aIXSqYEgj85J5ufSt6+IdiairAk4+OBJLMU="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    Edit the code in "code-to-run.js" and see te results here and in the
+    console!
+    <div id="draw"></div>
+    <script>
+      let draw = new Two({ width: 285, height: 200 }).appendTo(
+        document.getElementById("draw")
+      );
+    </script>
+    <script src="code-to-run.js"></script>
+  </body>
+</html>
