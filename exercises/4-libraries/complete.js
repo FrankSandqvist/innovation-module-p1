@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 // Innovation Module P1: 4. Libraries
 // frank@smidyo.com
 
