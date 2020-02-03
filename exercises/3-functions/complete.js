@@ -1,4 +1,3 @@
-/* eslint-disable */
 console.clear();
 
 // Innovation Module P1: 3. Functions
