@@ -11,7 +11,7 @@
 // look at the library "two.js", that allows you to draw on your
 // screen.
 
-// Two.js can in this case be accessed through the variable "Draw".
+// Two.js can in this case be accessed through the variable "Paper".
 // Let's try out its function makeCircle().
 
 let x = 100;
